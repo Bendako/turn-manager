@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({ name }) => {
       <div className="flex justify-between">
         <button 
           onClick={decrement} 
-          className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+          className="bg-red-500 mr-2 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
           -
         </button>
         <button 
